@@ -392,19 +392,19 @@ input:checked+label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('/src/assets/images/Gemini_Generated_Image.png');
+    background-image: url('/assets/images/Gemini_Generated_Image.png');
 }
 
 .card[for="c2"] {
-    background-image: url('/src/assets/images/ecommerce.png');
+    background-image: url('/assets/images/ecommerce.png');
 }
 
 .card[for="c3"] {
-    background-image: url('/src/assets/images/coffee\ website.png');
+    background-image: url('/assets/images/coffee\ website.png');
 }
 
 .card[for="c4"] {
-    background-image: url('/src/assets/images/offmenu.png');
+    background-image: url('/assets/images/offmenu.png');
 }
 
 
