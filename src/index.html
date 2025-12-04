@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="/src/font.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="skills.css">
     <script src="/matter.js" defer></script>
     <style>
         @keyframes float {
@@ -125,7 +127,7 @@
                     <h1 class="pointer-events-none text-4xl md:text-[64px] font-['Spartan'] mr-12 ">Ayesha Waseem</h1>
                     <p class="pointer-events-none font-['Merriweather'] italic my-4 md:my-8">Aspiring Web Developer |
                         Python Learner | Passion for AI</p>
-                    <a href="#about"><button
+                    <a href="#hello"><button
                             class="bg-[#4595eb] py-3 px-5 rounded font-extrabold bg-linear-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">About
                             Me
                             <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
@@ -174,7 +176,7 @@
                     </svg></li>
             </ul>
         </div>
-        <a href="#projects" class="inline-block mx-auto"><button
+        <a href="#skills" class="inline-block mx-auto"><button
                 class=" bg-[#4595eb] py-3 px-5 rounded font-extrabold bg-linear-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group self-center mb-4  ">Explore
                 More <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
                     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
@@ -190,91 +192,180 @@
                             fill="#fff" fill-opacity="1" stroke="white" stroke-width="2" marker="none"
                             visibility="visible" display="inline" overflow="visible" />
                     </g>
-                </svg> </button></a>
+                </svg> </button>
+        </a>
     </section>
 
+    <!--About Me Section-->
+    <section class="hello-section" id="hello">
+        <div class="hello-geometric-bg">
+            <div class="hello-hex"></div>
+            <div class="hello-hex"></div>
+            <div class="hello-hex"></div>
+            <div class="hello-hex"></div>
+            <div class="hello-circle"></div>
+            <div class="hello-circle"></div>
+        </div>
 
-    <section class="terminal-section" id="about">
-        <div class="terminal-container">
-            <h2 class="section-title">About Me</h2>
+        <div class="hello-info-section">
+            <h1 class="hello-section-title">About Me 👋</h1>
 
-            <div class="terminal">
-                <div class="terminal-header">
-                    <div class="terminal-btn btn-close"></div>
-                    <div class="terminal-btn btn-minimize"></div>
-                    <div class="terminal-btn btn-maximize"></div>
-                    <span class="terminal-title">ayesha@portfolio ~ bash</span>
+            <div class="hello-info-cards">
+                <!-- Card 1: Intro -->
+                <div class="hello-card">
+                    <div class="hello-avatar-container">
+                        <div class="hello-avatar-ring"></div>
+                        <div class="hello-avatar-circle">
+                            <i class='bx bx-code-alt'></i>
+                        </div>
+                    </div>
+                    <h1>Hi there, I'm <span class="hello-cyan-text">Ayesha</span></h1>
+                    <p>A passionate BSIT student specializing in web development. I thrive on solving problems through
+                        code and creating beautiful digital experiences.</p>
                 </div>
 
-                <div class="terminal-body">
-                    <!-- Command 1: whoami -->
-                    <div class="terminal-line">
-                        <span class="prompt">ayesha@portfolio:~$</span>
-                        <span class="command"> whoami</span>
+                <!-- Card 2: Tech Stack -->
+                <div class="hello-card">
+                    <h1>Tech <span class="hello-cyan-text">Stack</span></h1>
+                    <p>Currently mastering the MERN stack and exploring the exciting world of AI/ML with Python.</p>
+
+                    <div class="hello-tech-icons">
+                        <div class="hello-tech-icon" title="MongoDB">
+                            <i class='bx bxl-mongodb'></i>
+                        </div>
+                        <div class="hello-tech-icon" title="React">
+                            <i class='bx bxl-react'></i>
+                        </div>
+                        <div class="hello-tech-icon" title="Node.js">
+                            <i class='bx bxl-nodejs'></i>
+                        </div>
+                        <div class="hello-tech-icon" title="Python">
+                            <i class='bx bxl-python'></i>
+                        </div>
+                        <div class="hello-tech-icon" title="Figma">
+                            <i class='bx bxl-figma'></i>
+                        </div>
+                        <div class="hello-tech-icon" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </div>
                     </div>
-                    <div class="terminal-line">
-                        <div class="output-section">
-                            <p class="output">BSIT Student | Aspiring Web Developer | Python Learner</p>
-                            <p class="output">Passionate about <span class="highlight">clean code</span>, <span
-                                    class="highlight">modern UI/UX</span>, and <span class="highlight">AI/ML</span></p>
+                </div>
+
+                <!-- Card 3: Location (Tall) -->
+                <div class="hello-card">
+                    <h1>Flexible & <span class="hello-cyan-text">Remote</span></h1>
+                    <p>Based in Sahiwal, Punjab, Pakistan. Open to remote collaborations worldwide.</p>
+
+                    <div class="hello-globe-container">
+                        <div class="hello-globe">
+                            <div class="hello-ping"></div>
+                            <div class="hello-ping"></div>
+                            <div class="hello-ping"></div>
                         </div>
                     </div>
 
-                    <!-- Command 2: cat about.txt -->
-                    <div class="terminal-line">
-                        <span class="prompt">ayesha@portfolio:~$</span>
-                        <span class="command"> cat about.txt</span>
-                    </div>
-                    <div class="terminal-line">
-                        <div class="output-section">
-                            <p class="output">I'm a passionate <span class="highlight">BSIT student</span> focused on
-                                building clean, responsive websites.</p>
-                            <p class="output">I love experimenting with <span class="highlight">glassmorphism</span>,
-                                animations, and glowing gradients.</p>
-                            <p class="output">Currently exploring <span class="highlight">Python</span> and <span
-                                    class="highlight">AI/ML</span>, while strengthening my foundation in</p>
-                            <p class="output"><span class="highlight">C++</span>, <span class="highlight">OOP</span>,
-                                and <span class="highlight">Data Structures</span>. My debate experience has sharpened
-                                my</p>
-                            <p class="output">communication and teamwork skills.</p>
-                        </div>
+                    <button class="hello-contact-btn">
+                        <i class='bx bx-send'></i> Let's Connect
+                    </button>
+                </div>
+
+                <!-- Card 4: Learning Journey (Wide) -->
+                <div class="hello-card">
+                    <div class="hello-code-animation">
+                        <div class="hello-code-line">const passion = "coding";</div>
+                        <div class="hello-code-line">function learn() { grow(); }</div>
+                        <div class="hello-code-line">while(true) { improve(); }</div>
+                        <div class="hello-code-line">// Never stop learning</div>
+                        <div class="hello-code-line">const skills = [MERN, AI/ML];</div>
                     </div>
 
-                    <!-- Command 3: ls skills/ -->
-                    <div class="terminal-line">
-                        <span class="prompt">ayesha@portfolio:~$</span>
-                        <span class="command"> ls skills/</span>
-                    </div>
-                    <div class="terminal-line">
-                        <div class="terminal-skills">
-                            <span class="neon-tag">HTML</span>
-                            <span class="neon-tag">CSS</span>
-                            <span class="neon-tag">JavaScript</span>
-                            <span class="neon-tag">Python</span>
-                            <span class="neon-tag">C++</span>
-                            <span class="neon-tag">OOP</span>
-                            <span class="neon-tag">DSA</span>
-                            <span class="neon-tag">Figma</span>
-                            <span class="neon-tag">GitHub</span>
-                            <span class="neon-tag">UI/UX</span>
-                            <span class="neon-tag">AI/ML</span>
-                        </div>
-                    </div>
-
-                    <!-- Cursor -->
-                    <div class="terminal-line">
-                        <span class="prompt">ayesha@portfolio:~$</span>
-                        <span class="cursor"></span>
-                    </div>
-
+                    <h1>My <span class="hello-cyan-text">Learning</span> Journey</h1>
+                    <p>From C++ and OOP fundamentals to DSA, I'm now diving deep into full-stack development with the
+                        <span class="hello-cyan-text">MERN stack</span>. My experience in debate has honed my
+                        communication and teamwork skills, making me not just a coder, but a collaborative
+                        problem-solver ready to bring ideas to life.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <script>
+        // Mouse tracking for card glow effect
+        document.querySelectorAll('.hello-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = ((e.clientX - rect.left) / rect.width) * 100;
+                const y = ((e.clientY - rect.top) / rect.height) * 100;
+                card.style.setProperty('--mouse-x', x + '%');
+                card.style.setProperty('--mouse-y', y + '%');
+            });
+        });
+    </script>
 
+    <!-- SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+        <h1 class="section-title">My Skills 💪</h1>
 
-    <!-- projects sction bty me -->
+        <div class="skills-box">
+            <!-- Central Visual -->
+            <div class="code-visual">
+                <div class="code-circle"></div>
+                <div class="code-circle"></div>
+                <div class="code-center">
+                    <i class='bx bx-code-curly gradient'></i>
+                </div>
+
+                <!-- Floating Tech Icons -->
+                <i class='bx bxl-html5 float-icon'></i>
+                <i class='bx bxl-css3 float-icon'></i>
+                <i class='bx bxl-javascript float-icon'></i>
+                <i class='bx bxl-react float-icon'></i>
+            </div>
+
+            <!-- Designer Text -->
+            <div class="designer">
+                <h1 class="gradient">Designer <i class='bx bx-palette'></i></h1>
+                <p>I create beautiful, intuitive interfaces using Figma. My designs blend aesthetics with functionality
+                    for seamless user experiences.</p>
+            </div>
+
+            <!-- Developer Text -->
+            <div class="developer">
+                <h1 class="gradient">Developer <i class='bx bx-code-block'></i></h1>
+                <p>Building with React, Node.js, and the MERN stack. Exploring Python for AI/ML. Always learning and
+                    growing as a developer.</p>
+            </div>
+
+            <!-- Tech Stack Slider -->
+            <div class="slider">
+                <div class="list">
+                    <div class="item"><i class='bx bxl-html5' style="color:#E34F26;"></i></div>
+                    <div class="item"><i class='bx bxl-css3' style="color:#1572B6;"></i></div>
+                    <div class="item"><i class='bx bxl-javascript' style="color:#F0DB4F;"></i></div>
+                    <div class="item"><i class='bx bxl-react' style="color:#61DAFB;"></i></div>
+                    <div class="item"><i class='bx bxl-nodejs' style="color:#339933;"></i></div>
+                    <div class="item"><i class='bx bxl-mongodb' style="color:#47A248;"></i></div>
+                    <div class="item"><i class='bx bxl-python' style="color:#3776AB;"></i></div>
+                    <div class="item"><i class='bx bxl-figma' style="color:#F24E1E;"></i></div>
+                    <div class="item"><i class='bx bxl-git' style="color:#F05032;"></i></div>
+                    <div class="item"><i class='bx bxl-github' style="color:#fff;"></i></div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="item"><i class='bx bxl-html5' style="color:#E34F26;"></i></div>
+                    <div class="item"><i class='bx bxl-css3' style="color:#1572B6;"></i></div>
+                    <div class="item"><i class='bx bxl-javascript' style="color:#F0DB4F;"></i></div>
+                    <div class="item"><i class='bx bxl-react' style="color:#61DAFB;"></i></div>
+                    <div class="item"><i class='bx bxl-nodejs' style="color:#339933;"></i></div>
+                    <div class="item"><i class='bx bxl-mongodb' style="color:#47A248;"></i></div>
+                    <div class="item"><i class='bx bxl-python' style="color:#3776AB;"></i></div>
+                    <div class="item"><i class='bx bxl-figma' style="color:#F24E1E;"></i></div>
+                    <div class="item"><i class='bx bxl-git' style="color:#F05032;"></i></div>
+                    <div class="item"><i class='bx bxl-github' style="color:#fff;"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section  -->
     <div class="wrapper" id="projects">
         <div class="container">
             <input type="radio" name="slide" id="c1" checked>
@@ -282,8 +373,9 @@
                 <div class="row">
                     <div class="icon">1</div>
                     <div class="description">
-                        <h4>CV/Resume</h4>
-                        <p>A clean and modern CV designed for clarity and professional structure</p>
+                        <h4>Personal Portfolio</h4>
+                        <p>A clean and modern personal portfolio built to showcase my skills, projects, and creativity.
+                        </p>
                     </div>
                 </div>
             </label>
@@ -321,7 +413,7 @@
     </div>
 
 
-
+    <!-- Contact Me-->
     <section class="contact-section" id="contact">
         <div class="contact-wrapper">
             <!-- Left Side: Contact Image -->
@@ -401,10 +493,6 @@
         </div>
     </section>
 
-
-
-
-
     <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-container">
@@ -448,7 +536,8 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
     <script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
