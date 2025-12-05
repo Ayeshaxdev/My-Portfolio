@@ -905,8 +905,7 @@ input:checked+label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('/src/assets/images/portfoliopic.png');
-}
+    background-image: url('/src/assets/images/portfolio.png');}
 
 .card[for="c2"] {
     background-image: url('/src/assets/images/ecommerce.png');
